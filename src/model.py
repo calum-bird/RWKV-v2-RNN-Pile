@@ -19,7 +19,7 @@ n_embd = 1024
 
 vocab_size = 50277
 
-MODEL_NAME = 'rwkv-v2-rnn-169m/RWKV-v2-RNN-Pile-20220501-6548'
+MODEL_NAME = 'rwkv-v2-rnn-169m/RWKV-v2-RNN-Pile-20220524-4006'
 VOCAB_NAME = '20B_tokenizer.json'
 
 ################################################################################################################
