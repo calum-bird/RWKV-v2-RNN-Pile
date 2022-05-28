@@ -14,12 +14,12 @@ RUN_DEVICE = 'cpu' # cpu cuda
 print(f'\n* running on {RUN_DEVICE}')
 
 ctx_len = 768
-n_layer = 12
-n_embd = 768
+n_layer = 24
+n_embd = 1024
 
 vocab_size = 50277
 
-MODEL_NAME = 'rwkv-v2-rnn-169m\\20220501-6548'
+MODEL_NAME = 'rwkv-v2-rnn-169m/RWKV-v2-RNN-Pile-20220501-6548'
 VOCAB_NAME = '20B_tokenizer.json'
 
 ################################################################################################################
