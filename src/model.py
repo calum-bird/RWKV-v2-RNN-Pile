@@ -10,7 +10,7 @@ import torch.nn as nn
 
 from transformers import PreTrainedTokenizerFast
 
-RUN_DEVICE = 'cpu' # cpu cuda
+RUN_DEVICE = 'cuda' # cpu cuda
 print(f'\n* running on {RUN_DEVICE}')
 
 ctx_len = 768
